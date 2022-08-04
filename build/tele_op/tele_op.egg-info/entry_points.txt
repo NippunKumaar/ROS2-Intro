@@ -1,0 +1,3 @@
+[console_scripts]
+key_detect = tele_op.key_detect:main
+
