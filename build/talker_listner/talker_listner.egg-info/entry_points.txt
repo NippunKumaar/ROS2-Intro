@@ -1,0 +1,4 @@
+[console_scripts]
+listner = talker_listner.sub:main
+talker = talker_listner.pub:main
+

@@ -1,0 +1,177 @@
+[0.441s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.441s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2026dbe650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f20276e3310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f20276e3310>>)
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.474s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nippun/ros2_ws'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_package' with type 'ros.ament_python' and name 'my_first_package'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listner) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listner' with type 'ros.ament_python' and name 'talker_listner'
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.558s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nippun/ros2_ws/install
+[0.561s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nippun/ros2_ws/build/my_first_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nippun/ros2_ws/install/my_first_package', 'merge_install': False, 'path': '/home/nippun/ros2_ws/src/my_first_package', 'symlink_install': False, 'test_result_base': None}
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'talker_listner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.662s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nippun/ros2_ws/build/talker_listner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nippun/ros2_ws/install/talker_listner', 'merge_install': False, 'path': '/home/nippun/ros2_ws/src/talker_listner', 'symlink_install': False, 'test_result_base': None}
+[0.663s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.670s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nippun/ros2_ws/src/my_first_package' with build type 'ament_python'
+[0.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'ament_prefix_path')
+[0.677s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.sh'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nippun/ros2_ws/src/talker_listner' with build type 'ament_python'
+[0.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listner', 'ament_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/ament_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/ament_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/ament_prefix_path.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nippun/ros2_ws/src/my_first_package'
+[1.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.475s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nippun/ros2_ws/src/talker_listner'
+[1.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nippun/ros2_ws/src/my_first_package': PYTHONPATH=/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/nippun/ros2_ws/build/my_first_package/build install --prefix /home/nippun/ros2_ws/install/my_first_package --record /home/nippun/ros2_ws/build/my_first_package/install.log --single-version-externally-managed
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nippun/ros2_ws/src/talker_listner': PYTHONPATH=/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listner build --build-base /home/nippun/ros2_ws/build/talker_listner/build install --prefix /home/nippun/ros2_ws/install/talker_listner --record /home/nippun/ros2_ws/build/talker_listner/install.log --single-version-externally-managed
+[2.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nippun/ros2_ws/src/my_first_package' returned '0': PYTHONPATH=/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/nippun/ros2_ws/build/my_first_package/build install --prefix /home/nippun/ros2_ws/install/my_first_package --record /home/nippun/ros2_ws/build/my_first_package/install.log --single-version-externally-managed
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package' for CMake module files
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package' for CMake config files
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package/lib'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package/bin'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package/lib/pkgconfig/my_first_package.pc'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages'
+[2.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'pythonpath')
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/pythonpath.ps1'
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/pythonpath.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/hook/pythonpath.sh'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/my_first_package/bin'
+[2.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package)
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/package.ps1'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/package.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/package.sh'
+[2.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/package.bash'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/my_first_package/share/my_first_package/package.zsh'
+[2.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nippun/ros2_ws/install/my_first_package/share/colcon-core/packages/my_first_package)
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner' for CMake module files
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nippun/ros2_ws/src/talker_listner' returned '0': PYTHONPATH=/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listner build --build-base /home/nippun/ros2_ws/build/talker_listner/build install --prefix /home/nippun/ros2_ws/install/talker_listner --record /home/nippun/ros2_ws/build/talker_listner/install.log --single-version-externally-managed
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner' for CMake config files
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner/lib'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner/bin'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner/lib/pkgconfig/talker_listner.pc'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages'
+[2.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listner', 'pythonpath')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/pythonpath.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/pythonpath.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/hook/pythonpath.sh'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_ws/install/talker_listner/bin'
+[2.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listner)
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/package.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/package.dsv'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/package.sh'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/package.bash'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_ws/install/talker_listner/share/talker_listner/package.zsh'
+[2.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nippun/ros2_ws/install/talker_listner/share/colcon-core/packages/talker_listner)
+[2.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.862s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.884s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.920s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_ws/install/local_setup.ps1'
+[2.926s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nippun/ros2_ws/install/_local_setup_util_ps1.py'
+[2.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_ws/install/setup.ps1'
+[2.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_ws/install/local_setup.sh'
+[2.933s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nippun/ros2_ws/install/_local_setup_util_sh.py'
+[2.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_ws/install/setup.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_ws/install/local_setup.bash'
+[2.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_ws/install/setup.bash'
+[2.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_ws/install/local_setup.zsh'
+[2.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_ws/install/setup.zsh'
