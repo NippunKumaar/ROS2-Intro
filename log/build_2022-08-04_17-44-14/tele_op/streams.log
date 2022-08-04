@@ -1,0 +1,27 @@
+[0.927s] Invoking command in '/home/nippun/ros2_ws/src/tele_op': PYTHONPATH=/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tele_op build --build-base /home/nippun/ros2_ws/build/tele_op/build install --prefix /home/nippun/ros2_ws/install/tele_op --record /home/nippun/ros2_ws/build/tele_op/install.log --single-version-externally-managed
+[1.297s] running egg_info
+[1.298s] writing ../../build/tele_op/tele_op.egg-info/PKG-INFO
+[1.298s] writing dependency_links to ../../build/tele_op/tele_op.egg-info/dependency_links.txt
+[1.299s] writing entry points to ../../build/tele_op/tele_op.egg-info/entry_points.txt
+[1.299s] writing requirements to ../../build/tele_op/tele_op.egg-info/requires.txt
+[1.299s] writing top-level names to ../../build/tele_op/tele_op.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/tele_op/tele_op.egg-info/SOURCES.txt'
+[1.304s] writing manifest file '../../build/tele_op/tele_op.egg-info/SOURCES.txt'
+[1.304s] running build
+[1.304s] running build_py
+[1.304s] copying tele_op/key_detect.py -> /home/nippun/ros2_ws/build/tele_op/build/lib/tele_op
+[1.304s] running install
+[1.305s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.305s]   warnings.warn(
+[1.305s] running install_lib
+[1.306s] copying /home/nippun/ros2_ws/build/tele_op/build/lib/tele_op/key_detect.py -> /home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages/tele_op
+[1.307s] byte-compiling /home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages/tele_op/key_detect.py to key_detect.cpython-310.pyc
+[1.308s] Sorry: IndentationError: unindent does not match any outer indentation level (key_detect.py, line 43)
+[1.308s] running install_data
+[1.309s] running install_egg_info
+[1.311s] removing '/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages/tele_op-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/tele_op/tele_op.egg-info to /home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages/tele_op-0.0.0-py3.10.egg-info
+[1.312s] running install_scripts
+[1.343s] Installing key_detect script to /home/nippun/ros2_ws/install/tele_op/lib/tele_op
+[1.344s] writing list of installed files to '/home/nippun/ros2_ws/build/tele_op/install.log'
+[1.383s] Invoked command in '/home/nippun/ros2_ws/src/tele_op' returned '0': PYTHONPATH=/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tele_op build --build-base /home/nippun/ros2_ws/build/tele_op/build install --prefix /home/nippun/ros2_ws/install/tele_op --record /home/nippun/ros2_ws/build/tele_op/install.log --single-version-externally-managed
